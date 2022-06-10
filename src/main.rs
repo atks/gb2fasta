@@ -16,8 +16,9 @@ fn main() {
     let stdout = io::stdout();
     for seq in SeqReader::new(file) {
         let seq = seq.unwrap();
-        let rc = seq.revcomp();
-        rc.write(stdout.lock()).unwrap();
+        // let rc = seq.revcomp();
+        // rc.write(stdout.lock()).unwrap();
+        println!("{}", seq.len.unwrap());
 
         break;
     }
