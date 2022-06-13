@@ -1,9 +1,26 @@
 use std::env;
 use std::fs::File;
-use std::io::{self, BufRead};
-use std::path::Path;
+// <<<<<<< HEAD
+// use std::io::{self, BufRead};
+// use std::path::Path;
+// =======
+// use std::io;
+// use gb_io::reader::SeqReader;
+// use clap::Parser;
+
+// #[derive(Parser)]
+// struct Cli {
+//     pattern: String,
+//     #[clap(parse(from_os_str))]
+//     path: std::path::PathBuf
+// }
+// >>>>>>> 2db1fc5b43f70d6e9ecaea1e08fee3faf4503203
 
 fn main() {
+
+
+
+
     let args: Vec<String> = env::args().collect();
     println!("printing {:?}", args);
     let gb_file: String = args[1].clone();
