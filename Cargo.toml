@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 gb-io = "0.7.1"
 clap = {version = "3.0", features = ["derive"] }
+flate2 = "1.0"
