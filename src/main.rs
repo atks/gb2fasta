@@ -25,15 +25,6 @@ fn main() {
         for line in stdin.lock().lines() {
             println!("{}", line.unwrap());
         }
-        // let buffer = io::BufReader::new(io::stdin());
-        // let mut input_iter = buffer.lines();
-        // input_iter.next();
-        // input_iter.next();
-
-        // for line in input_iter {
-        //     println!("{:?}", line);
-        // }
-
     }
 }
 
